@@ -1,16 +1,36 @@
 :root {
     --color-dark-blue: #051D3B;
     --color-white: #FFFFFF;
+    --color-white1: rgba(255, 255, 255, 1);
+    --color-gray16: rgba(255, 255, 255, 0.16);
+
+    --font-inter: 'Inter', sans-serif;
+    --font-roboto-mono: 'Roboto Mono', monospace;
 }
 
-html{
-    background-color: white;
-}
+
 
 .container {
     background-color: var(--color-dark-blue);
+    font-family: var(--font-inter);
     margin: 0 auto;
     max-width: 100%;
     width: 375px;
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .container {
+        max-width: 100%;
+        width: 768px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+        width: 1440px;
+    }
 }
 
