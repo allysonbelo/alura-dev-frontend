@@ -24,4 +24,4 @@ História
 
 ## Layout
 
-<img src="C:\Users\allys\Desktop\Alura\Challenger\alura-dev\design\[Desktop] All Dev.png" style="zoom:50%;" />
+![Design Desktop](design/all-dev.png)
