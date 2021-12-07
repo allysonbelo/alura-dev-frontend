@@ -21,3 +21,7 @@ História
 
 É importante que esse projeto seja **escalável**, ao ponto que, se for necessário adicionar alguma funcionalidade (feature), seja simples fazê-la. Como esse editor é online, é de extrema importância que ele seja **responsivo**.
 
+
+## Layout
+
+<img src="C:\Users\allys\Desktop\Alura\Challenger\alura-dev\design\[Desktop] All Dev.png" style="zoom:50%;" />
