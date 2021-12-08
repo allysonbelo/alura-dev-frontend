@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main-grid.css">
+    <link rel="stylesheet" href="css/content-codigo.css">
 
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,13 +47,42 @@
             <div class="line"></div>
         </div>
 
-        
+
         <div class="profile">
             <img src="images/Photo.png" alt="Foto perfil" class="profile__img">
             <span class="profile__name">Harry</span>
         </div>
     </header>
 
+    <div class="main-grid">
+        <aside class="aside-menu"></aside>
+        <div class="content-main">
+            <main class="codigo">
+                <div class="codigo__content">
+                    <div class="circles">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <form class="codigo__form">
+                        <textarea name="" id="" cols="" rows="" placeholder="const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+                            const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+                            
+                            const unfold = (f, seed) => {
+                              const go = (f, seed, acc) => {
+                                const res = f(seed)
+                                return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                              }
+                              return go(f, seed, [])
+                            }" spellcheck="false"></textarea>
+                    </form>
+                </div>
+            </main>
+            <button>Visualizar com o highlight</button>
+        </div>
+        <aside class="aside-novo-projeto"></aside>
+    </div>
 
 
     <script src="js/script.js"></script>
