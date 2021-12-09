@@ -67,6 +67,17 @@
     outline: none;
 }
 
+.btn-highlight{
+    background-color: var(--color-dark-blue8);
+    border: none;
+    border-radius: 8px;
+    color: var(--color-white);
+    cursor: pointer;
+    height: 56px;
+    margin-top: 32px;
+    width: 100%;
+}
+
 @media (min-width: 768px) {
 
     .main-grid {
