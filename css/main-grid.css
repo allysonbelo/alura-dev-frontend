@@ -7,13 +7,14 @@
     min-width: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 112px;
+    margin-top: 112px;;
 }
 
 @media (min-width: 1200px) {
     .main-grid {
         grid-template-areas:
-            "aside-menu codigo aside-novo-projeto";
+            "desktop-menu codigo aside-novo-projeto";
+        ;
+        justify-content: space-between;
     }
 }
-

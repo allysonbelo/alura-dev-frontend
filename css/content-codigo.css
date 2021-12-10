@@ -104,6 +104,10 @@
 
 @media (min-width: 1200px) {
 
+    .main-grid {
+        max-width: 1376px;
+    }
+
     .content-main {
         width: 752px;
     }

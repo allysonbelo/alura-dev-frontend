@@ -1,0 +1,12 @@
+.aside-novo-projeto{
+    display: none;
+}
+
+@media (min-width: 1200px) {
+
+    .aside-novo-projeto{
+        display: block;
+        grid-area: aside-novo-projeto;
+    }
+
+}

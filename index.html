@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main-grid.css">
     <link rel="stylesheet" href="css/content-codigo.css">
+    <link rel="stylesheet" href="css/aside-menu.css">
+    <link rel="stylesheet" href="css/aside-projeto.css">
 
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,7 +57,19 @@
     </header>
 
     <div class="main-grid">
-        <aside class="aside-menu"></aside>
+        <aside class="aside-menu">
+            <span class="menu__title">Menu</span>
+            <ul class="menu__lista">
+                    <li class="menu__item active-ico">
+                        <i class="fas fa-code"></i>
+                        <a class="menu__link" href="#">Editor de código</a>
+                    </li>
+                <li class="menu__item">
+                    <i class="fas fa-users"></i>
+                    <a class="menu__link" href="#">Comunidade</a>
+                </li>
+            </ul>
+        </aside>
 
         <div class="content-main">
             <main class="codigo">
@@ -83,7 +97,14 @@
             <button class="btn-highlight">Visualizar com o highlight</button>
         </div>
 
-        <aside class="aside-novo-projeto"></aside>
+        <aside class="aside-novo-projeto">
+            <span>Menu</span>
+            <ul>
+                <li>Editor de código</li>
+                <li>Comunidade</li>
+            </ul>
+        </aside>
+    </div>
     </div>
 
 

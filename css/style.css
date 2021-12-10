@@ -3,13 +3,14 @@
     --color-dark-blue8: rgba(80, 129, 251, 0.08);
     --color-white: #FFFFFF;
     --color-white1: rgba(255, 255, 255, 1);
+    --color-white05: rgba(255, 255, 255, .56);
     --color-gray16: rgba(255, 255, 255, 0.16);
+    --color-light-blue: rgba(80, 129, 251, 1);
+    --color-light-blue016: rgba(80, 129, 251, .16);
 
     --font-inter: 'Inter', sans-serif;
     --font-roboto-mono: 'Roboto Mono', monospace;
 }
-
-
 
 .container {
     background-color: var(--color-dark-blue);
@@ -18,8 +19,6 @@
     max-width: 100%;
     width: 375px;
 }
-
-
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1199.98px) {
@@ -35,7 +34,4 @@
         max-width: 100%;
         width: 1440px;
     }
-
 }
-
-
